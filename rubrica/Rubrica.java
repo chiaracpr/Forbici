@@ -4,6 +4,7 @@ import java.util.LinkedList;
 
 public class Rubrica {
 
+
     private LinkedList<Persona> elenco;
 
     public Rubrica(LinkedList<Persona> elenco) {
