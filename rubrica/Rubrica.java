@@ -4,10 +4,6 @@ import java.util.LinkedList;
 
 public class Rubrica {
 
-	public Rubrica()
-	{}
-
-
     private LinkedList<Persona> elenco;
 
     public Rubrica(LinkedList<Persona> elenco) {
@@ -44,14 +40,15 @@ public class Rubrica {
         return numero;
     }
 
-    String[] trovaPersone(String cognome)
+    LinkedList trovaPersone(String cognome)
     {
-        String [] numero=new String [elenco.size()];
+        LinkedList<String> numero=new Linkedlist;
+
         for(int i=0;i<elenco.size();i++)
         {
             if(elenco.get(i).getCognome()==cognome)
             {
-                numero[i]=elenco.get(i).getNumTel();
+                numero.add(elenco.get(i).getNumTel());
                 System.out.println("cognome trovato");
             }
 
