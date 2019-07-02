@@ -25,6 +25,8 @@ public class Persona {
          public void setNumTel(String numTel) {
          this.numTel = numTel;
             }
+
+
 }
 
 
