@@ -40,7 +40,9 @@ public class Rubrica {
         return numero;
     }
 
-    LinkedList trovaPersone(String cognome,String nome)
+
+    LinkedList trovaPersone(String nome,String cognome)
+
     {
         LinkedList<String> numero=new Linkedlist;
 
@@ -49,7 +51,7 @@ public class Rubrica {
             if(elenco.get(i).getCognome()==cognome && elenco.get(i).getNome()==nome)
             {
                 numero.add(elenco.get(i).getNumTel());
-                System.out.println("cognome trovato");
+                System.out.println("persona trovata");
             }
 
         }
