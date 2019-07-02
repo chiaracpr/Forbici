@@ -7,6 +7,11 @@ public class Rubrica {
 
     private LinkedList<Persona> elenco;
 
+    public Rubrica()
+    {
+
+    }
+
     public Rubrica(LinkedList<Persona> elenco) {
         this.elenco = elenco;
     }
