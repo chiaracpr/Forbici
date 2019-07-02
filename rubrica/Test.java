@@ -14,7 +14,7 @@ public class Test {
             Rubrica rubrica =new Rubrica(elenco);
             rubrica.trovaPersona("chiara", "caporro");
             rubrica.aggiungi("paolo","rossi","3283322486");
-            rubrica.trovaPersone("rossi");
+            rubrica.trovaPersone("mario","rossi");
         }
     }
 
